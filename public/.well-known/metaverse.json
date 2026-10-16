@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Great Pyramid of Giza",
+  "description": "The Giza plateau around 2560 BCE: Pharaoh Khufu's Great Pyramid in its gleaming white limestone casing, the queens' pyramids, and the Great Sphinx. Neferbubu the scribe tells its story.",
+  "spawns": {
+    "default": "South of the Great Pyramid on the causeway, facing it",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_great_pyramid",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
