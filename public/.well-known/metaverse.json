@@ -4,7 +4,10 @@
   "description": "The Giza plateau around 2560 BCE: Pharaoh Khufu's Great Pyramid in its gleaming white limestone casing, the queens' pyramids, and the Great Sphinx. Neferbubu the scribe tells its story.",
   "spawns": {
     "default": "South of the Great Pyramid on the causeway, facing it",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "to_hanging_gardens": "In front of the portal to Hanging Gardens",
+    "from_lighthouse_of_alexandria": "Arriving from Lighthouse, in front of the portal plaza",
+    "to_lighthouse_of_alexandria": "In front of the portal to Lighthouse"
   },
   "portals": [
     {
@@ -13,6 +16,20 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_great_pyramid",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_hanging_gardens",
+      "label": "Hanging Gardens",
+      "href": "https://zlisto.github.io/hanging-gardens-of-babylon/",
+      "spawn": "from_great_pyramid",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
+    },
+    {
+      "id": "to_lighthouse_of_alexandria",
+      "label": "Lighthouse",
+      "href": "https://zlisto.github.io/lighthouse-of-alexandria/",
+      "spawn": "from_great_pyramid",
+      "where": "A shortcut doorway beside the portal to Metaverse Square (Egypt · shortcut)"
     }
   ]
 }
