@@ -71,7 +71,7 @@ It's also remarkably precise. Its sides face the four directions within a tiny f
   },
 
   env: { sky: '#a9cbe6', fog: '#e3d2ae', fogNear: 120, fogFar: 520, ground: '#d6bc86', hemiSky: '#fff1d6', hemiGround: '#b09060', sun: [60, 90, 40], sunIntensity: 1.9 },
-  speed: { walk: 6, run: 12 },
+  speed: { walk: 12, run: 20 },
   bound: 150,
   spawn: { x: 0, z: 48, yaw: 0 },
   portal: { x: -8, z: 55, rot: Math.PI, href: HUB, spawn: 'by_great_pyramid' },
